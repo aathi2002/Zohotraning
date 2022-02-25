@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+.headpart img {
+    float: left;
+    width: 100px;
+    height: 100px;
+    left: 70px;
+    background: rgb(202, 42, 42);
+    border-style: groove;
+    padding: auto;
+  }
+  
+  .headpart h1 {
+    position: relative;
+    top: 18px;
+    left: 100px;
+    border-style: groove;
+    padding: auto;
+    font-size: xx-large;
+    background-color:greenyellow;
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 200px;
+    margin-bottom: 60px;
+    padding-left: 500px;
+  }
+
+  #sunicon{
+      width: 30px;
+      cursor: pointer;
+  }
+  nav ul{
+      flex:1;
+      text-align: right;
+  }
+  :root{
+      --primary-color: #edf2fc;
+      --secondary-color: #212121;
+  }
+ *{
+     box-sizing: border-box;
+     margin:0;
+     padding:0;
+     /* background-color: gold; */
+
+ }
+ li a,button{
+     font-family: "Montserrat";
+     font-weight: 500;
+     font-size: 16px;
+     color:white;
+     text-decoration: none;
+    
+    
+ }
+ li{
+     display: inline;
+     float: left;
+
+ }
+ a{
+     display: block;
+     padding: 15px;
+     background-color:#212121;
+ }
+ .cta{
+     padding :0px;
+ }
+ header{
+     display: flex;
+     justify-content:flex-end;
+     align-items:center;
+     padding: 30px 10%;
+ }
+ .logo{
+     cursor: pointer;
+     margin-right: auto;
+     height: 50px;
+     width: 100px;
+ }
+ .nav_links{
+     display: inline-block;
+     padding: 0px 20px;
+
+ }
+ .nav_links li a{
+     transition:all 0.3s ease 0s;
+
+ }
+ .nav_links li a:hover{
+     color:#0088a9;
+ }
+ button{
+     padding:9px 25px;
+     background-color: rgba(0,136,169,1);
+     border:none;
+     border-radius: 50px;
+     cursor: pointer;
+     transition:all 0.3s ease 0s;
+     
+ }
+ button:hover{
+    background-color: rgba(0,136,169,0.8);
+
+ }
+.frame2{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 150px;
+    margin-top: auto;
+    font-size: small;
+    border-style:calc(40px);
+   
+}
+.marquee {
+    position: absolute;
+    white-space: nowrap;
+    -webkit-animation: rightThenLeft 4s linear;
+    border-radius:50ch;
+}
+
+@-webkit-keyframes rightThenLeft {
+    0%   {left: 0%;}
+    50%  {left: 50%;}
+    100% {left: 0%;}
+}
+.frame3{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 150px;
+    margin-top: auto;
+    font-size: small;
+    border-style:calc(40px);
+    text-shadow: white;
+
+}
+body{
+    /* background: url(https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940); */
+    background: url(https://images.pexels.com/photos/2333293/pexels-photo-2333293.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  
+    background-size: cover;
+}
+*{
+    box-sizing: border-box;
+  }
+  
+  .mega {
+    float: left;
+    width: 33.33%;
+    padding: 25px;
+    
+  }
+  
+  /* Clearfix (clear floats) */
+  .mega::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  @media screen and (max-width: 500px) {
+    .mega {
+      width: 50%;
+    }
+  }
+  img{
+    border: 5px solid #555;
+    width: 150%;
+  }
+  *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+
+  }
+  .container{
+      max-width: 1170px;
+      background-color: red;
+      margin:auto;
+  }
+  ul{
+      list-style: none;
+
+  }
+  .footer{
+      /* background-color: #24262b; */
+      padding: 70px 0; 
+  }
+  .footer-col{
+      width: 25%;
+      padding: 0 15px;
+  }
+  .footer-col h4{
+      font-size: 18px;
+      color: #ffffff;
+      text-transform: capitalize;
+  }
+  .footer{
+      line-height: 1.5;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      
+  }    

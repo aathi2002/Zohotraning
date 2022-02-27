@@ -7,12 +7,39 @@
         <link rel="icon" href="Pictures/icon.jpg" type="image/gif/jpg">
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+        <!-- <img src="https://as1.ftcdn.net/v2/jpg/03/07/25/46/1000_F_307254609_3JMsfMLbsGRAdDkr1vCQUlQuX7hDtK1m.jpg"> -->
+        <style>
+            * {
+              box-sizing: border-box;
+            }
+            
+            .column {
+              float: left;
+              width: 33.33%;
+              padding: 5px;
+            }
+            
+            /* Clearfix (clear floats) */
+            .row::after {
+              content: "";
+              clear: both;
+              display: table;
+            }
+            
+            /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+            @media screen and (max-width: 500px) {
+              .column {
+                width: 100%;
+              }
+            }
+            </style>
     </head>
 
     <body>
+        <!-- <img src="https://i.graphicmama.com/uploads/2019/3/5c81d11f45af1-Vector%20HTML%20and%20CSS%20Services%20Logo%20Design.jpg" style="float: left;" width="100px" height="100px" width="50%"> -->
       <div class="headpart">
           <!-- <img src="https://as1.ftcdn.net/v2/jpg/03/07/25/46/1000_F_307254609_3JMsfMLbsGRAdDkr1vCQUlQuX7hDtK1m.jpg" height="100px" width="100px" style="background-color: wheat"> -->
-          <h1 class="marquee">pineapple</h1>
+          <h1 class="marquee">CSS TEMPLATES</h1>
           </div>
           <header>
               <!-- <img class="logo" src="https://image.shutterstock.com/image-vector/development-web-icon-logo-isolated-260nw-1720724851.jpg" alt="aathi"> -->
@@ -22,6 +49,7 @@
                       <li><a href="gallery.html">Gallery</a></li>
                       <li><a href="Templates.html">Templates</a></li>
                       <li><a href="developer.html">About the developer</a></li>
+                      <li><a href="https://github.com/aathi2002/webdevelopment-zoho-">GitHub Repositories</a></li>
                       
                   </ul>
                   <!-- <img src="https://cdn.iconscout.com/icon/free/png-256/moon-1716354-1461199.png" id="sunicon" alt="aathi"> -->
@@ -36,23 +64,23 @@
                 CSS stands for Cascading Style Sheets
                 CSS describes how HTML elements are to be displayed on screen, paper, or in other media
                 CSS saves a lot of work. It can control the layout of multiple web pages all at once
-                External stylesheets are stored in CSS files<span id="dots">...</span><span id="more"></span>
+                External stylesheets are stored in CSS file
                 CSS is used to define styles for your web pages, including the design, layout and variations in display for different devices and screen sizes.
                 The style definitions are normally saved in external .css files.
                 With an external stylesheet file, you can change the look of an entire website by changing just one file    
-                CSS stands for Cascading Style Sheets<span id="more"></span>
+                CSS stands for Cascading Style Sheets
                 CSS describes how HTML elements are to be displayed on screen, paper, or in other media
                 CSS saves a lot of work. It can control the layout of multiple web pages all at once
                 External stylesheets are stored in CSS files<span id="dots">...</span><span id="more"></span>
                 CSS is used to define styles for your web pages, including the design, layout and variations in display for different devices and screen sizes.
                 The style definitions are normally saved in external .css files.
                 With an external stylesheet file, you can change the look of an entire website by changing just one file
-                CSS stands for Cascading Style Sheets</span>
+                CSS stands for Cascading Style Sheets
                 CSS describes how HTML elements are to be displayed on screen, paper, or in other media
                 CSS saves a lot of work. It can control the layout of multiple web pages all at once
-                External stylesheets are stored in CSS files<span id="dots">...</span><span id="more"></span>
+                External stylesheets are stored in CSS files
                 CSS is used to define styles for your web pages, including the design, layout and variations in display for different devices and screen sizes.
-                The style definitions are normally saved in external .css files.</span>
+                The style definitions are normally saved in external .css files
                 With an external stylesheet file, you can change the look of an entire website by changing just one file
              </span></p>             
                
@@ -79,17 +107,86 @@
            <div class="frame3">
                <h1>Mega Devlopment project</h1>
                
-               <div class="mega">
-                   <img src="Task 1.JPG">
-                   <img src="Task 8.jpg">
+               <div class="row">
+                   <div class="coloumn">
+                    <img src="Task 1.JPG" >
+                   </div>
+                   <div class="coloumn">
+                    <img src="Task 8.jpg" >
+                   </div>
+                   <div class="coloumn">
+                    
                    <img src="Task 6.jpg">
-                   <img src="Task 9.jpg">
-                   <img src="Task 10.jpg">
+                   </div>
+                   <div class="coloumn">
+                    <img src="Task 9.jpg">
+                    
+                   </div>
+                   <div class="coloumn">
+                    <img src="Task 10.jpg" >
+                   </div>
+                   
+                  
+                   
+                   
                </div>
            </div>
+           
+        
+            
+            <footer class="footer">
+            <div class="l-footer">
+         
+         
+                <h1  style="color:yellow;">CSS TEMPLATES</h1>
+                <img src="https://i.graphicmama.com/uploads/2019/3/5c81d11f45af1-Vector%20HTML%20and%20CSS%20Services%20Logo%20Design.jpg" style="float: left;">
+    
+      
+            </div>
+            <ul class="r-footer">
+            <li>
+              <h2>
+            Social</h2>
+            <ul class="box">
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Pinterest</a></li>
+            <li><a href="#">Dribbble</a></li>
+            </ul>
+            </li>
+            <li class="features">
+              <h2>
+            Information</h2>
+            <ul class="box h-box">
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Sales</a></li>
+            <!-- <li><a href="#">Tickets</a></li> -->
+            <li><a href="#">Certifications</a></li>
+           
+            </ul>
+            </li>
+            <li>
+              <h2>
+            Legal</h2>
+            <ul class="box">
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Use</a></li>
+            <li><a href="#">Contract</a></li>
+            <li><a href="#">Customer Service</a></li>
+            </ul>
+            </li>
+            </ul>
+            <div class="b-footer">
+            <p>
+            All rights reserved by aathiharish@2002 </p>
+            </div>
+            </footer>
+            
          
 
                 
     </body>
+   
 </html>
 <!-- https://cdn3.iconfinder.com/data/icons/meteocons/512/moon-black-512.png -->
